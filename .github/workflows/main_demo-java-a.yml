@@ -52,5 +52,3 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E59AA5750F30403691D44BC2349C2193 }}
           package: '*.jar'
 
-      - name: Start Java App
-        run: java -jar ${{ github.workspace }}/target/*.jar
