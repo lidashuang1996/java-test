@@ -21,7 +21,7 @@ public class Cl {
 
     @RequestMapping("")
     public String a() {
-        return repository.findAll().toString();
+        return ">>>>>>>" + repository.findAll().toString();
     }
 
 }
